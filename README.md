@@ -24,11 +24,11 @@ The model successfully resolves the overlapping distributions, achieving high ge
 
 ### Discriminative Power (ROC-AUC)
 The architecture achieved an outstanding **AUC of 0.940**, demonstrating highly reliable separability between signal and background events across various probability thresholds.
-![Evaluation Metrics](assets/evaluation_metrics.png)
+![Evaluation Metrics](notebooks/assets/evaluation_metrics.png)
 
 ### Convergence Stability
 The learning curves confirm the efficacy of the dropout regularization, with the validation loss tracking the training loss tightly throughout the optimization process.
-![Learning Curves](assets/learning_curves.png)
+![Learning Curves](notebooks/assets/learning_curves.png)
 
 ## Methodological Value
 This repository serves as a blueprint for:
