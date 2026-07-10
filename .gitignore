@@ -1,0 +1,18 @@
+# Entornos y temporales
+env/
+__pycache__/
+.ipynb_checkpoints/
+
+# Directorios de datos y modelos locales
+data/
+models/
+
+# Extensiones de archivos de datos (¡Tu excelente corrección!)
+*.csv
+*.data
+*.names
+*.dat
+
+# Archivos de modelos compilados
+*.h5
+*.keras
